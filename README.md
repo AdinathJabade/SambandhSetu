@@ -1,5 +1,11 @@
 # SambandhSetu - Matrimony Matchmaking Platform
 
+## 🌐 Live Demo
+
+**Visit the live website:** [https://sambandhsetu.netlify.app](https://sambandhsetu.netlify.app)
+
+---
+
 ## 📋 Overview
 
 **SambandhSetu** is a modern, responsive matrimony matchmaking website designed to help people find meaningful relationships. The platform provides a clean, user-friendly interface for users to search, connect, and interact with potential life partners based on preferences like location, profession, age, and community.
