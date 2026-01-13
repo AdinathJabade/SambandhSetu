@@ -666,7 +666,7 @@ main {
 .footer3 {
   width: 100%;
   min-height: 50vh;
-  padding: 20px 100px;
+  padding: 20px 40px;
   background-color: #fff;
 }
 
@@ -767,11 +767,11 @@ main {
 /* Responsive */
 @media (max-width: 1024px) {
   .hero-text h1 {
-    font-size: 3rem;
+    font-size: 3rem !important;
   }
 
   .hero-text p {
-    font-size: 1.3rem;
+    font-size: 1.3rem !important;
   }
 
   .rows {
@@ -787,11 +787,11 @@ main {
   }
 
   .hero-text h1 {
-    font-size: 2.5rem;
+    font-size: 2.5rem !important;
   }
 
   .hero-text p {
-    font-size: 1.2rem;
+    font-size: 1.2rem !important;
   }
 
   .form-container {
@@ -878,11 +878,11 @@ main {
   }
 
   .hero-text h1 {
-    font-size: 1.8rem;
+    font-size: 1.8rem !important;
   }
 
   .hero-text p {
-    font-size: 1rem;
+    font-size: 1rem !important;
   }
 
   .form-container {
@@ -912,6 +912,10 @@ main {
     gap: 1.5rem;
   }
 
+  .Testimonials_storyWrapper h2{
+    font-size: 1.7em !important;
+  }
+
   .signup_feature,
   .connect_feature,
   .interact_feature {
@@ -936,6 +940,9 @@ main {
   .interact_feature_containt div {
     font-size: 0.85rem;
   }
+  .footerlinks ul {
+    padding-left: 0;
+  }
 
   /* Footer mobile tweaks */
   .footerPara {
@@ -946,15 +953,19 @@ main {
     font-size: 0.9rem;
     padding: 6px 8px;
   }
+
+  .footer4part1 {
+    font-size: 0.7rem !important;
+  }
 }
 
 @media (max-width: 360px) {
   .hero-text h1 {
-    font-size: 1.5rem;
+    font-size: 1.5rem !important;
   }
 
   .hero-text p {
-    font-size: 0.9rem;
+    font-size: 0.9rem !important;
   }
 
   .form-container {
@@ -968,6 +979,9 @@ main {
   .navbar {
     padding: 8px 15px;
   }
+  .Testimonials_storyWrapper h2{
+    font-size: 1.4rem !important;
+  }
 
   .getStarted {
     font-size: 1rem;
@@ -980,9 +994,17 @@ main {
     font-size: 0.9rem;
   }
 
+  .footerlinks ul {
+    padding-left: 0;
+  }
+
   /* Smallest screens: tighten footer link sizes */
   .footerlinks ul li a {
     font-size: 0.85rem;
     padding: 6px 6px;
+  }
+
+  .footer4part1 {
+    font-size: 0.6rem !important;
   }
 }
